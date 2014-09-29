@@ -5,8 +5,7 @@ Cloudgraph is a minimal interface between Carbon/Graphite and Cloudwatch.
 
 ### Usage
 
-    from cloudgraph import Cloudgraph
-
+    from cloudgraph import CloudGraph
     with CloudGraph(method="pickle",
                     namespace="default") as cg:
                     
