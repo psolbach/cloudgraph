@@ -1,7 +1,7 @@
 cloudgraph
 ==========
 
-Cloudgraph is a minimal interface for Cloudwatch and Carbon/Graphite.
+Cloudgraph is a minimal interface for CloudWatch and Carbon/Graphite.
 Requires boto.
 
 ### Usage
