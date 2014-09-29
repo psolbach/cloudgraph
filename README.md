@@ -18,7 +18,7 @@ The approach of chaining, manipulating metrics prior to submitting is chosen ove
         
 Optionally, manipulate stored data in cg.response. Then:
         
-        cg.send_pickle()
+    cg.send_pickle()
         
 
 
