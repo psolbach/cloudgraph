@@ -9,13 +9,12 @@ Cloudgraph is a minimal interface between Cloudwatch and Carbon/Graphite.
     with CloudGraph(method="pickle",
                     namespace="default") as cg:
                     
-      while True:
-        end = datetime.datetime.utcnow()
-        start = end - datetime.timedelta(minutes=5)
-        
-        cg.get_metrics("HTTPStatus", dimension="foo", alt_dimension="bar") 
-        cg.query_metrics(start, end, "Average", unit="Seconds")
-        cg.send_pickle()
+    end = datetime.datetime.utcnow()
+    start = end - datetime.timedelta(minutes=5)
+    
+    cg.get_metrics("HTTPStatus", dimension="foo", alt_dimension="bar") 
+    cg.query_metrics(start, end, "Average", unit="Seconds")
+    cg.send_pickle()
         
 
 
