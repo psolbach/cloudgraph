@@ -6,7 +6,7 @@ Requires boto.
 
 ### Usage
 
-    from cloudgraph import CloudGraph
+    import cloudgraph
     with CloudGraph(method="pickle",
                     namespace="default") as cg:
                     
