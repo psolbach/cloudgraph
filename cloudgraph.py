@@ -58,8 +58,7 @@ class CloudGraph(object):
     def _find_metrics(self, **kwargs):
         """Map requested metrics to a BOOL: If kwargs subset
         of available metric labels. Add results to query-list.
-        TD: Expand for combination of Metrics and labels,
-        e.g. name=NetworkOut, subscriber=foo"""
+        """
 
         self.querylist = []
         for k,v in kwargs.items():
