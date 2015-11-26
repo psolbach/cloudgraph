@@ -130,7 +130,7 @@ class CloudGraph(object):
     def send_pickle(self):
         """Generate Tuples from multiple Query results
         and submit in one batch. Pickled payload needs
-        to be preceeded by a custom C type header.
+        to be preceded by a custom C type header.
         """
 
         metrics = []
